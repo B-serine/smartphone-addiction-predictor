@@ -78,25 +78,7 @@ The pipeline is organized into three notebooks of increasing sophistication:
 - Correlation diagnostics between models to check whether they're capturing genuinely different signal
 - A troubleshooting checklist for pushing the score further (interaction target encoding, distribution shift checks, deeper diagnostics)
 
----
 
-## 📁 Repository Structure
-
-```
-.
-├── smartphone_addiction_prediction.ipynb   # Baseline: cleaning + 6 models
-├── smartphone_addiction_advanced.ipynb     # XGBoost + LightGBM + CatBoost, tuned, 5-fold CV
-├── smartphone_addiction_deep.ipynb         # + target encoding + PyTorch NN + stacking
-├── data/
-│   ├── train.csv                           # (not included — add your own)
-│   └── test.csv                            # (not included — add your own)
-├── submissions/                            # generated submission CSVs land here
-└── README.md
-```
-
-> **Note:** the dataset files are not included in this repository. Place your `train.csv` and `test.csv` in the `data/` folder (or update the `TRAIN_PATH` / `TEST_PATH` variables at the top of each notebook) before running.
-
----
 
 ## ⚙️ Setup
 
@@ -140,10 +122,10 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/smartphone-addiction-predictor.git
+   git clone https://github.com/B-serine/smartphone-addiction-predictor.git
    cd smartphone-addiction-predictor
    ```
-2. Add your `train.csv` and `test.csv` to the `data/` folder.
+2. Add your `train.csv` and `test.csv`.
 3. Activate your environment (see Setup above).
 4. Open and run whichever notebook fits your needs, top to bottom:
    - Want a clear, simple baseline to learn from? → `smartphone_addiction_prediction.ipynb`
