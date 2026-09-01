@@ -158,11 +158,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
 - Deep learning with entity embeddings for categorical features
 - Model stacking with a learned meta-model
 
----
 
-## 📄 License
-
-This project is released under the [MIT License](LICENSE).
 
 ---
 
