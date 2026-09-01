@@ -133,25 +133,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
    - Want the maximum score with deep learning + stacking? → `smartphone_addiction_deep.ipynb`
 5. Submission files (`submission_<model>.csv`) are generated automatically in the `id,addicted_label` format required by the competition.
 
----
 
-## 📊 Results
-
-Each notebook prints and plots a comparison table of ROC-AUC scores per model. Fill in your own results here after running:
-
-| Model | Validation / OOF ROC-AUC |
-|---|---|
-| Logistic Regression | — |
-| KNN | — |
-| Random Forest | — |
-| Gradient Boosting | — |
-| XGBoost | — |
-| LightGBM | — |
-| CatBoost | — |
-| Neural Network (PyTorch) | — |
-| **Stacked Ensemble** | — |
-
----
 
 ## 🔧 Tech Stack
 
